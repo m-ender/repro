@@ -15,9 +15,8 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-postgres": "beta",
     "@payloadcms/next": "beta",
-    "@payloadcms/plugin-cloud": "^3.0.2",
+    "@payloadcms/plugin-cloud": "beta",
     "@payloadcms/richtext-lexical": "beta",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
@@ -25,7 +24,8 @@
     "payload": "beta",
     "react": "19.0.0-rc-5dcb0097-20240918",
     "react-dom": "19.0.0-rc-5dcb0097-20240918",
-    "sharp": "0.32.6"
+    "sharp": "0.32.6",
+    "@payloadcms/db-postgres": "beta"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
